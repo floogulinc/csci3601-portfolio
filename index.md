@@ -269,4 +269,4 @@ browserShareInvite() {
 
 ### Promotional Materials
 
-I designed a promotional brochure for SAGE. The PDF is [here](sage-brochure.pdf).
+I designed a promotional brochure for SAGE. The PDF is <a href="sage-brochure.pdf">here</a>.
