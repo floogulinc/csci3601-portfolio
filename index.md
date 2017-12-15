@@ -2,7 +2,6 @@
 title: CSCI 3601 Portfolio
 description: "Portfolio for CSCI 3601: Software Design and Development"
 layout: default
-permalink: /
 ---
 
 <style type="text/css">
