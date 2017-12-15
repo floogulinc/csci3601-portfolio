@@ -180,9 +180,20 @@ When a user joins a class the join code is actually added to a document by their
 | ![](images/class-teacher-student-menu.png) | ![](images/class-sharing.png) |
 | A class showing the teacher's options for a student | The class sharing section |
 
+
 ### Multiplayer
 
-I used the [Firebase Realtime Database](https://firebase.google.com/products/realtime-database/) to implement multi-device multiplayer for our existing gameplay. The user who is leading the game simply taps the "Invite to Game" button to make their current game multiplayer and invite players. When this button is tapped, a new game ID is generated and the current state of their game is sent to the Realtime Database keyed by the game code. But before sending any game data ut sets up the database so it will delete the game if the sending player disconnects. 
+<div style="float: right; width: 30%; margin-left: 10px">
+
+  <img src="images/game-id-dialog.png">
+
+  The Game ID dialog
+
+</div>
+
+I used the [Firebase Realtime Database](https://firebase.google.com/products/realtime-database/) to implement multi-device multiplayer for our existing gameplay in [this pull request](https://github.com/UMM-CSci-3601-F17/sage-team-cheezit/pull/34). The user who is leading the game simply taps the "Invite to Game" button to make their current game multiplayer and invite players. When this button is tapped, a new game ID is generated and the current state of their game is sent to the Realtime Database keyed by the game code. But before sending any game data it sets up the database so it will delete the game if the sending player disconnects. 
+
+The "Invite to Game" button also opens up a dialog showing the Game ID that another player can type into the "Join Game" page to join the game as well as a QR code for a URL to join the current game and a share button (copy on desktop).
 
 This code shows the setup for starting a game, `showGameID()` is called when the "Invite to Game" button is pressed:
 ```ts
