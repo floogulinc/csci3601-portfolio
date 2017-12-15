@@ -50,7 +50,7 @@ Here are some of the important features of SAGE:
 - **Decks** hold SAGE cards and can be moved between classes. They are what is selected when playing SAGE.
 - **Multiplayer** allows multiple students to join a SAGE game on their devices. Game invites can be shared eaisly with a numerical code or a QR code. There is also a share button to quickly share the invite URL on your mobile device.
 
-![SAGE home and play screens](images/home-and-play-small.png)
+<img src="images/home-and-play-small.png">
 
 ## Tooling
 
