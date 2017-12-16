@@ -118,7 +118,7 @@ Early in the project, I added
 
 ### Firebase
 
-I lead our team's decision to switch from our backend stack of the Spark Framework on Java and MongoDB to [Firebase](https://firebase.google.com/) and [rewrote our existing application to use it](https://github.com/UMM-CSci-3601-F17/sage-team-cheezit/pull/25). I switched us to using the new [Cloud Firestore](https://firebase.google.com/products/firestore/) database from Firebase rather than their Realtime Database as Cloud Firestore is more like the database we were using and had many nice features for the type of data we are dealing with.
+I led our team's decision to switch from our backend stack of the Spark Framework on Java and MongoDB to [Firebase](https://firebase.google.com/) and [rewrote our existing application to use it](https://github.com/UMM-CSci-3601-F17/sage-team-cheezit/pull/25). I switched us to using the new [Cloud Firestore](https://firebase.google.com/products/firestore/) database from Firebase rather than their Realtime Database as Cloud Firestore is more like the database we were using and had many nice features for the type of data we are dealing with.
 
 
 <img src="images/icon.svg" width="15%" style="float: right">
